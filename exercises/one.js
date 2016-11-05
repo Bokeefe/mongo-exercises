@@ -14,7 +14,7 @@ Checkout.aggregate(
 	        
 	        { "$sort": { "checkoutCount": -1 } },
 	        
-	        { "$limit": 3 }
+	        { "$limit": 1 }
 	    ],
 	    function(err,result) {
 	    	if(err){
